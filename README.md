@@ -18,6 +18,8 @@ The Raw data based on the accelerometer and gyroscope 3-axial linear acceleratio
 at a constant rate of 50Hz with the test and train data merged and row and column names expanded and the data 
 tidied are held in the 'annotated'./raw_data' folder.
 
+# 2. How the Script is used to tidy the data
+
 The key deliverables for this assignment are a script "run_analysis.R", this READ.ME file, and a codebook.
 
 The script reads the various files in the UCI HAR Dataset directory. Takes the Test and the Train data and merges it. Tidies the data by making sure that the tables are structured into rows and columns which have easily understood names, and there is only one variable per column.
@@ -42,6 +44,7 @@ The script does the following:
   - Add two additional columns (is.mean & is.std) to features table to make mean & std selection easier 
   - write the data off to the './data' folder
 * 6. Extract, format the summary and summary subset readings (from the x-test and x-train files) so the tidy set of data is ready to be used. As requested a subset of these summary readings have also been created based on those variables 
-
   - Extract and merge the data in the x-test and x-train files
-  - Create a summary_subset of the data using only the variables (columns) containing Mean & Std as part of the name #    - Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+  - Create a summary_subset of the data using only the variables (columns) containing Mean & Std as part of the name 
+  - Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
