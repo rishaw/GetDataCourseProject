@@ -103,7 +103,7 @@ The remainder of this document outlines how the different data tables are struct
 * fBodyBodyGyroJerkMag_meanFreq_
 
 #### 2.1.2 Row Headers
-- subject : unique ID withing the range 1 : 30
+- subject : unique ID within the range 1 : 30
 - activity : there are 6 activities 
      1. WALKING
      2. WALKING_UPSTAIRS
